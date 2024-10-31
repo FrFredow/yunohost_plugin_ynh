@@ -35,7 +35,7 @@ ram.runtime = "50M"
     [resources.sources]
         [resources.sources.main]
         url = "https://github.com/FrFredow/yunohost_plugin_ynh/blob/master/yunohost_plugin_ynh.tar.gz"
-        sha256 = "40118e999b87220c831c7e693010d6592b5813147cb25a43506bfb851171079d"
+        sha256 = "6515d1b4647b8a95868a5a60e60302b3681af5291ff3119824d032a1b9d6b129"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
