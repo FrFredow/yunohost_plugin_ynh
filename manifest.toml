@@ -1,20 +1,18 @@
-#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+id = "yunohost_plugin_ynh"
+name = "YunoHost Plugin YNH"
+description = "Un plugin YunoHost exemple"
+version = "1.0.0"
+maintainer = "FrFredow"
+source = "https://github.com/FrFredow/yunohost_plugin_ynh"
 
-packaging_format = 2
+# Dépendances (ajoutez celles qui sont nécessaires)
+dependencies = []
 
-id = "test_plugin"
-name = "test"
-description.fr = "test_app"
+# Definir les assets
+assets = [
+    { type = "main", url = "https://github.com/FrFredow/yunohost_plugin_ynh/blob/master/yunohost_plugin_ynh.tar.gz", sha256 = "5ea7e4c39f8e81f39f9ab43b6e1786ce2c175ae94f03b6c5a3e65f32d8b2a7fb" }
+]
 
-version = "1.0"
-
-maintainers = ["FrFredow"]
-
-
-[upstream]
-license = "AGPL-3.0-or-later"
-code = "https://github.com/FrFredow/yunohost_plugin_ynh/blob/master/yunohost_plugin_ynh.tar.gz"
-sha256 = ""
 
 
 
@@ -37,12 +35,7 @@ ram.runtime = "50M"
     type = "path"
     default = "/exemple"
 
-[resources]
-    [resources.sources]
-        [resources.sources.main]
-        url = "https://github.com/FrFredow/test_main_asset/blob/main/test_main_asset.zip"
-        sha256 = "807067da96a2c24c8e772e713d269f01f29e2b83d1e7a88e7201d9f83e150206"
-        autoupdate.strategy = "latest_github_tag"
+
 
     [resources.system_user]
 
