@@ -14,6 +14,7 @@ maintainers = ["FrFredow"]
 [upstream]
 license = "AGPL-3.0-or-later"
 code = "https://github.com/FrFredow/yunohost_plugin_ynh/blob/master/yunohost_plugin_ynh.tar.gz"
+sha256 = ""
 
 
 
