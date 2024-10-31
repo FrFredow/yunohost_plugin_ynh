@@ -29,7 +29,7 @@ ram.runtime = "50M"
 
     [install.path]
     type = "path"
-    default = "/"
+    default = "/test"
 
 [resources]
     [resources.sources]
